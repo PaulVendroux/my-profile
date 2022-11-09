@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(220, 129, 129);
+
+}
+
+.card {
+    display: grid;
+    margin: 15px 40px 25px 40px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgb(170, 14, 14);
+}
+
+.card button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(157, 35, 35);
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.card button a {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.card p {
+    margin: auto;
+    padding: 30px 0px 25px 0px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.card h2 {
+    margin: auto;
+    font-size: 30px;
+    color: rgb(157, 35, 35);
+    padding-top: 20px;
+    text-align: center;
+}
+
+#main h1 {
+    color:rgb(157, 35, 35);
+    font-size: 30px;
+    margin: auto;
+    text-transform: uppercase;
+    padding: 30px 0px 20px 0px;
+}
+
+#main img {
+    margin: auto;
+    text-align: center;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.card ul {
+    display: flex;
+    list-style: none;
+    margin: auto
+}
+
+.card li {
+    margin: 30px 20px 30px 0px;
+}
+
+#socials img {
+    width: 50px;
+}
